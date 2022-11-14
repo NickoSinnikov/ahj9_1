@@ -1,0 +1,42 @@
+*, body{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.container .animation-extension{
+	display: flex;
+	flex-direction: column;
+}
+
+.animation-extension{
+margin-left: 30px;
+position: relative;
+}
+
+.button{
+	width: 100px;
+	height: 40px;
+	background-color: aquamarine;
+	border-radius: 7px;
+	border:none;
+	cursor: pointer;
+	margin-bottom: 10px;
+	
+}
+
+.button:hover{
+	border:2px solid black;
+}
+
+.text{
+	height: 0px;
+	width: 300px;
+	overflow: hidden;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 0px;
+	transition: height 1s ease-in-out 0s , padding 1s ease-in-out 0s ;
+
+}
+
