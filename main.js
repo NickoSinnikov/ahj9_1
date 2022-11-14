@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){const e=document.querySelector(".button-collapse"),t=document.querySelector(".text");e.addEventListener("click",(e=>{e.preventDefault(),console.log("click"),t.classList.toggle("text-hidden"),"0px"===t.style.height?(t.style.height="150px",t.style.padding="7px"):(t.style.height="0px",t.style.padding="0px")}))}()})();
